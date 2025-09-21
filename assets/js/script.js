@@ -87,6 +87,7 @@ const gameOver = () => {
     gameOverSign.style.display = 'flex';
     clearInterval(moveInterval)
     startButton.disabled = false;
+    board.style.display="none";
     
 }
 
@@ -155,6 +156,7 @@ const startGame = () => {
     createRandomFood();
     document.addEventListener('keydown', directionEvent);
     moveInterval = setInterval( () => moveSnake(), gameSpeed);
+    // board.style.display = 'block';
 }
 
 startButton.addEventListener("click", startGame)
