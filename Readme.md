@@ -3,8 +3,9 @@
 
 ##IDs
 
+tablero
 board
-scoreBoard
+scoreBoard (puntaje)
 startButton
 gameOver
 
@@ -13,5 +14,5 @@ snakeSquare
 foodSquare
 
 ##CLASES
-boardInfo
-score
+boardInfo  (puntaje y boton inicio)
+score ()
